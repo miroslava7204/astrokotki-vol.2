@@ -1,0 +1,21 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	cursor: url('vestnik.png') 60 60, auto;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+}
+		
+#button {
+	width: auto;
+	height: 120px;
+	position: absolute;
+	top: calc(50% - 30px + 120px);
+	left: calc(50% - 112px);
+}
+

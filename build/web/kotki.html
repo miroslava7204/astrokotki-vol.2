@@ -4,12 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Mirka">
-        <title>астрокотки</title>
+        <title>травмирани котки</title>
         <link rel="icon" type="image/png" href="astrocat.jpg">
 		<meta name="viewport" content="width=device-width" initial-scale="1">
 		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/bretan" type="text/css"/>
 		<link rel="stylesheet" href="bootstrap.css">
-        
+         <link rel="stylesheet" href="mishka.css"> 
 		<link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -35,29 +35,24 @@
 			</div>
 		</nav>
 
-			<div class="col-lg-8 mx-auto p-3 py-md-5">
+			<form action="/action_page.php">
+	  	<p>жертва</p>
+	  	<input type="radio" id="hlebarka" name="zhertva" value="hlebarka">
+	  	<label for="html">хлебарка</label><br>
+	  	<input type="radio" id="mishka" name="zhertva" value="mishka">
+	  	<label for="css">мишка</label><br>
 
-		<main>
+		<p>оръжие</p>
+		<input type="radio" id="vestnik" name="oruzhie" value="vestnik">
+	  	<label for="vestnik">вестник</label><br>
+	  	<input type="radio" id="japanka" name="oruzhie" value="japanka">
+	  	<label for="japanka">джапанка</label><br>
+	</form>
 
-			<br>
+		<img src="mishka.png" id="button" onclick="btnClick()" onmouseover="btnClick()"></img> 
+	
+	<script src="mishka.js"></script>
 
-			<h1>Нима има нещо по-quirky and relatable от котки и астрология</h1>
-
-			<br>
-
-			<p>
-				общо взето идеята ми за този сайт не знам каква е; това което ще видите е чисто експериментално, с цел предадено домашно... <br>
-				когато имам повече време (по коледа) ще хвана даже favicon-ите да си ги нарисувам сама<br>
-				всички снимки са извзети от флашката ми, така че нека предположим че съм ги теглила от <a href="https://pinterest.com/">пинтерест</a>
-			</p>
-
-			<br>
-
-		</main>
-
-	</div>
-
-	<script src="bootstrap.js"></script>
 	<script src="bootstrap.js"></script>
     </body>
 </html>
